@@ -1,0 +1,35 @@
+{
+  "name": "angularBootstrapColumnsSameHeight",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "xo": "^0.5.0"
+  },
+  "xo": {
+    "globals": [
+      "angular",
+      "app",
+      "describe",
+      "beforeEach",
+      "inject",
+      "it",
+      "expect",
+      "module",
+      "require"
+    ],
+    "rules": {
+      "linebreak-style": [
+        0
+      ],
+      "no-invalid-this": 0,
+      "strict": [2, "function"],
+      "brace-style": [2, "stroustrup", {"allowSingleLine": false}]
+    },
+    "ignores": [".tmp/**", ".git/**", "dist/**", "**/bower_components/**"]
+  },
+  "scripts": {
+    "test": "xo"
+  },
+  "devDependencies": {
+  }
+}
